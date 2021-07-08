@@ -1,8 +1,7 @@
 import React from "react";
 import Card from "../Card";
-import "./styles.css";
-
 import { useCardsColorContext } from "../../Context/CardsColorContext";
+import "./styles.css";
 
 const CardContainer = () => {
   const { colors } = useCardsColorContext();
