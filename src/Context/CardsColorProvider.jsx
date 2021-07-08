@@ -18,12 +18,14 @@ export const CardsColorProvider = ({ children }) => {
     setColors([...colors]);
   };
 
+  const cardsColorProviderValue = {
+    colors,
+    changeColor,
+  }
+
   return (
     <CardsColorContext.Provider
-      value={{
-        colors,
-        changeColor,
-      }}
+      value={cardsColorProviderValue}
     >
       {children}
     </CardsColorContext.Provider>

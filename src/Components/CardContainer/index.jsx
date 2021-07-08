@@ -8,7 +8,7 @@ const CardContainer = () => {
   const { colors } = useCardsColorContext();
 
   return (
-    <div className = "cards">
+    <div className = "cardsContainer">
       {colors.map((color, index) => (
         <Card key={index} color={color} index={index} />
       ))}
