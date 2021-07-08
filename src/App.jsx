@@ -6,7 +6,7 @@ import "./App.css";
 const App = () => {
   return (
     <CardsColorProvider>
-      <div className="body">
+      <div className="mainContainer">
         <CardContainer />
         <CardContainer />
       </div>
